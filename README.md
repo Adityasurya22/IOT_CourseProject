@@ -7,15 +7,15 @@ For running the system, these steps need to be followed:
 1. Start a Mosquitto MQTT message broker.
 2. Run the file `device.py` on the ESP32 device after changing the ssid and password of the wifi connection.
 ```bash
-wlan = connect_to_wifi('devansh', 'devansh123')
+wlan = connect_to_wifi('device', 'password')
 ```
 3. The folder named server should be copied the sever which is recieving the data. 
 4. Host a MySQL server on the server, and set appropriate host, username, password and database name in the file `sql.py`
 ```bash
 mydb = mysql.connector.connect(
             host="localhost",
-            user="b_devansh",
-            password="sql1234",
+            user="device",
+            password="password",
             database="iot"
         )
 ```
