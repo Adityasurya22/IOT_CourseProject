@@ -1,6 +1,6 @@
 ## IOT COURSE PROJECT
 
-# IoT-Based Precision Agriculture System
+# IoT-Enabled Precision Agriculture System
 
 ## Project Overview
 
